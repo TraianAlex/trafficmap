@@ -15,7 +15,7 @@ export default class Map extends Component {
   }
 
   static initializeMap(state, viewport) {
-    MapboxGL.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+    MapboxGL.accessToken = 'pk.eyJ1IjoidmljdG9yOTIiLCJhIjoiY2s2enZieWRsMWNreTNocDludmllNG1rbSJ9.KehMArcy8DBj9xemMfnFcA'; // process.env.REACT_APP_MAPBOX_TOKEN;
     let map = new MapboxGL.Map({
       container: "map",
       style: 'mapbox://styles/mapbox/light-v9',
